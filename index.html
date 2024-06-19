@@ -28,11 +28,12 @@
                         <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#IGFeed">IG Feed</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#artists">Artists</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#IGFeed">Instagram</a>
+                    </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
@@ -83,25 +84,6 @@
             </div>
         </div>
     </section>
-
-
-
-
-    <!-- IG Iframe -->
-    <!-- <div class="container">
-    <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://www.instagram.com/brandsttattoo/embed/"
-            allowfullscreen></iframe>
-    </div>
-</div> -->
-
-
-<div id="IGFeed" class="container-fluid px-3">
-    <iframe class="py-5" style="overflow: hidden; height: 50rem; width: 100%; border: none;" src="https://www.instagram.com/brandsttattoo/embed/"
-        allowfullscreen></iframe>
-</div>
-
-
 
 
     <!-- Artists -->
@@ -171,10 +153,16 @@
 
 
 
+    <!-- Instagram iframe -->
+    <div id="IGFeed" class="container-fluid px-3">
+        <iframe class="py-5" style="overflow: hidden; height: 50rem; width: 100%; border: none;" src="https://www.instagram.com/brandsttattoo/embed/"
+            allowfullscreen></iframe>
+    </div>
+    
 
 
 
-
+    <!-- Contact -->
     <section id="contact" class="py-5">
         <div class="container my-3">
             <h2>Contact Us</h2>
@@ -190,20 +178,21 @@
 
 
 
-
+    <!-- Footer -->
     <footer id="footer" class="text-center py-3 mt-auto">
         <div class="pb-2">
             <div class="mx-3 d-inline">
-                        <a href="https://www.facebook.com/p/Brand-Street-Tattoo-100078443034064/"><i class="fa fa-facebook fa-3x"
+                        <a id="FBLogo" style="color: white;" href="https://www.facebook.com/p/Brand-Street-Tattoo-100078443034064/"><i class="fa fa-facebook fa-3x"
                             aria-hidden="true"></i></a>
             </div>
             <div class="mx-3 d-inline">
-                <a href="https://www.instagram.com/brandsttattoo/"><i class="fa fa-instagram fa-3x"
+                <a id="IGLogo" style="color: white;" href="https://www.instagram.com/brandsttattoo/"><i class="fa fa-instagram fa-3x"
                         aria-hidden="true"></i></a>
             </div>
         </div>
         <p id="IG_Link">&copy; 2023 Brand St. Tattoo</p>
     </footer>
+
 
     <!-- Include Bootstrap JS and jQuery -->
     <script src="script.js"></script>
