@@ -1,0 +1,63 @@
+
+
+
+#home{
+    background: url(images/shop.jpeg) center;
+    background-size: cover;
+    text-shadow: 2px 2px 2px white, 10px 10px 10px #1d5c16, 10px 10px 2px black;
+    font-size: 5rem;
+    height: 100%;
+    
+}
+
+#home h1 {
+  color: #ffbf00 ;
+}
+
+#tagline {
+  color: #f79d00 ;
+  text-shadow: 2px 2px 2px white, 10px 10px 10px #1d5c16, 5px 5px 2px black;
+}
+
+
+/* #f79d00  >  #64f38c */
+/* #FFE000   > #799F0C */
+/* #00416A  > #799F0C > #FFE000 */
+
+
+.img-responsive{
+    max-width: 60%;
+}
+
+
+
+/* [1] The container */
+.card {
+     /* [1.1] Set it as per your need */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+    margin-right: 50px;
+  }
+  
+  /* [2] Transition property for smooth transformation of images */
+  .card img {
+    transition: transform .5s ease;
+  }
+  
+  /* [3] Finally, transforming the image when container gets hovered */
+  .card:hover img {
+    transform: scale(1.1);
+  }
+
+iframe{
+    border: goldenrod;
+}
+
+#artists{
+  flex-wrap: wrap;
+}
+
+
+.embed-responsive-item{
+  height: 500px;
+}
+
