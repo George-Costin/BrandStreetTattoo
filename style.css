@@ -4,14 +4,21 @@
 #home{
     background: url(images/shop.jpeg) center;
     background-size: cover;
-    text-shadow: 2px 2px 2px white, 10px 10px 10px #1d5c16, 10px 10px 2px black;
+    text-shadow:     0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #f79d00,
+    0 0 82px #f79d00,
+    0 0 92px #f79d00,
+    0 0 102px #f79d00,
+    0 0 151px #f79d00;;
     font-size: 5rem;
     height: 100%;
     
 }
 
 #home h1 {
-  color: #ffbf00 ;
+  color: black ;
 }
 
 #tagline {
