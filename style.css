@@ -18,7 +18,7 @@
 #home h1 {
   color: black ;
   padding-top: 1.1em;
-  text-shadow: 2px 2px white;
+  text-shadow: 3px 3px 2px white, -3px -3px 2px white
 }
 
 
