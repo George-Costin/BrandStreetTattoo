@@ -14,9 +14,11 @@ body{
 
 #home{
     background: url(images/IMG_4469.JPG) center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     font-size: 5rem;
     max-height: 7em;
+    background-color: white;
 }
 
 #home h1 {
